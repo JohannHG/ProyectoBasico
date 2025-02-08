@@ -1,0 +1,123 @@
+/*eSTILO PARA EL VIDEOss*/
+#videoFondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Ajusta la opacidad */
+    z-index: -1;
+}
+
+/*fuente general*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e6fc5, #2ba8da);
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/*estilo del encabezafdo*/
+header {
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/*secciones generales*/
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Titulos de seccion*/
+h2 {
+    color: #0077b6;
+    border-bottom: 3px solid #00b4d8;
+    padding-bottom: 5px;
+}
+
+/*listas*/
+ul {
+    list-style-type: square;
+    padding: 10;
+}
+
+ul li {
+    color: black;
+
+    margin: 5px 0;
+    padding: 10px;
+
+}
+
+/*tablas*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #00b4d8;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #0077b6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #e3f2fd;
+}
+
+/*responsvo para moviles*/
+@media (max-widht:768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
+
+footer {
+    color: white;
+}
